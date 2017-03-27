@@ -1,0 +1,91 @@
+/*{
+    margin:0;
+    padding:0;
+    border:2px dashed pink;
+}*/
+body{
+font: 1.5 Verdana, Sans-Serif;
+background: #222;
+}
+#container{
+width:688px;
+margin:100px auto;
+}
+#write{
+margin:0 0 5px;
+padding:5px;
+width:671px;
+height:200px;
+font:1em/1.5 Verdana, Sans-Serif;
+color:white;
+background:#555;
+border:1px solid #494949;
+-moz-border-radius:5px;
+-webkit-border-radius:5px;
+}
+#keyboard{
+margin:0;
+padding:0;
+list-style:none;
+}
+    #keyboard li{
+    float:left;
+    margin:0 5px 5px 0;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    text-align:center;
+    background:#333;
+    border:1px solid #222;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    color:deepskyblue;
+    }
+        #keyboard .symbol{
+    
+        }
+        #keyboard .letter{
+    
+        }
+        #keyboard .delete{
+        width:70px;
+        margin-right:0px;               
+        font-size:.95em;
+        }
+        #keyboard .tab{
+        width:70px;
+        margin-right:0px;
+        }
+        #keyboard .capslock{
+        width:80px;
+        }
+        #keyboard .return{
+        width:77px;
+        }
+    .lastitem {
+    margin-right:0px;
+    }
+    .on {
+    display:none;
+    }
+    #keyboard .left-shift{
+    width:95px;
+    }
+    #keyboard .right-shift{
+    width:109px;
+    }
+    #keyboard .space{
+    clear:left;
+    width:681px;
+    }
+    .uppercase{
+    text-transform: uppercase;
+    }
+    #keyboard li:hover {
+    position: relative;
+    top:1px;
+    left:1px;
+    border-color:deepskyblue;
+    background-color:#282828;
+    cursor: pointer;
+    }
